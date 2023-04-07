@@ -54,7 +54,7 @@ function inputs() {
 }
 
 function drawGreenBlob() {
-  ctx.fillStyle = "red"; // green
+  ctx.fillStyle = "red"; // original green
   if (upPressed) {
     ctx.fillStyle = "red";
   }
