@@ -3,7 +3,7 @@ const ctx = canvas.getContext("2d");
 
 let x = 100;
 let y = 100;
-let radius = 20; // 50
+let radius = 10; // 50
 let speed = 10;
 
 let upPressed = false;
@@ -54,7 +54,7 @@ function inputs() {
 }
 
 function drawGreenBlob() {
-  ctx.fillStyle = "yellow"; // green
+  ctx.fillStyle = "red"; // green
   if (upPressed) {
     ctx.fillStyle = "red";
   }
